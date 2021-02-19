@@ -14,11 +14,6 @@ Generates a new project from an archetype, or updates the actual project if usin
 Invokes the execution of the lifecycle phase generate-sources prior to executing itself.
 
 ## Parameter Details
-<archetypeArtifactId>
-The archetype's artifactId.
-- Type: java.lang.String
-- Required: No
-- User Property: archetypeArtifactId
 
 ## <archetypeGroupId>
 The archetype's groupId.
@@ -31,3 +26,9 @@ The archetype's version.
 - Type: java.lang.String
 - Required: No
 - User Property: archetypeVersion
+
+## <archetypeArtifactId>
+The archetype's artifactId.
+- Type: java.lang.String
+- Required: No
+- User Property: archetypeArtifactId
